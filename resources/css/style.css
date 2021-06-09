@@ -1,0 +1,110 @@
+/*
+Author: Tashi Tam'$ 
+Author URI: https://www.facebook.com/tashidrukhack
+Version: 1.0.1
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700;800&display=swap');
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+
+/* Table */
+.table .thead-dark th {
+  font-weight: normal!important;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  /*background-color: #f5f5f5;*/
+  background-color: #212529;
+  color: #fff;
+}
+
+
+/* Custom alert  */
+#custom-alert {
+  position: absolute!important;
+  bottom: 50px!important;
+  right: 20px!important;
+  z-index: 10!important;
+}
+
+.alert-success {
+  color: #fff!important;
+  border-color: #5CB360!important;
+  background-color: #5CB360!important;
+}
+
+.alert-danger {
+	color: #fff!important;
+  border-color: #EC4B47!important;
+  background-color: #EC4B47!important;
+}
+
+.alert.alert-warning {
+  background-color: #ff9e0f;
+  border-color: #ff9e0f!important;
+  color: #fff;
+}
+
+.flash-text {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.img-account-profile {
+  height: 6.8rem;
+}
+
+
+/* Search bar */
+.has-search .form-control {
+  padding-left: 2rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.27rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+/* Custom blockquote */
+
+.callout {
+  padding: 1.875em 1.85em 1em;
+  background: #fff;
+  box-shadow: 0 20px 30px -16px rgba(9,9,16,.2);
+  margin-bottom: 2.5em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.content {
+  font-size: 16px;
+  color: rgba(9, 9, 16, 0.7);
+}
+
+/* Custom icon */
+.navbar-icon {
+  font-size: 24px;
+}
